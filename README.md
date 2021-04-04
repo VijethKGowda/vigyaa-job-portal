@@ -1,10 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# ToDo App for Maxxton
+# Job portal App for Vigyaa
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg)</a>
 
-## 🎏 Live Demo: [ToDo App](https://to-do-sandy.vercel.app/)
+## 🎏 Live Demo: [Job portal App](https://vigyaa-job-portal-app.vercel.app/)
 
 ## Getting Started
 
