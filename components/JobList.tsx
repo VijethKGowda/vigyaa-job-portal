@@ -18,7 +18,10 @@ const JobList: React.FunctionComponent<JobListProps> = ({ data }) => {
     <>
       {data.map((job) => {
         return (
-          <div className="lg:flex lg:items-center lg:justify-between mb-16">
+          <div
+            key={job.id}
+            className="lg:flex lg:items-center lg:justify-between mb-16"
+          >
             <img className="mr-6 w-10 mb-3" src={job.company_logo} alt="logo" />
             <div className="flex-1 min-w-0">
               <h2 className="text-2xl font-bold leading-7 text-gray-900 sm:truncate">
