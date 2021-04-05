@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 export default function Home({ start }) {
   const dispatch = useDispatch();
-  const selector = useSelector((state) => state.jobData.jobList);
+  const selector = useSelector((state: any) => state.jobData.jobList);
 
   useEffect(() => {
     dispatch(FetchListData({ jobList: start }));
